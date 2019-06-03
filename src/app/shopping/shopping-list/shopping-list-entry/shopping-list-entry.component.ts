@@ -10,7 +10,6 @@ export class ShoppingListEntryComponent implements OnInit {
   @Input() entry: ShoppingListEntry;
   @Output() increment = new EventEmitter<ShoppingListEntry>();
   @Output() decrement = new EventEmitter<ShoppingListEntry>();
-  @Output() noteChanged = new EventEmitter<ShoppingListEntry>();
 
   detailsVisible: boolean;
 

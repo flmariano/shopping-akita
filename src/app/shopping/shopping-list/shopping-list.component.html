@@ -9,25 +9,10 @@
          (keydown.enter)="addEntry(input)">
 </div>
 
-<div>
-  <button [disabled]="!stateHistory.hasPast"
-          class="btn"
-          (click)="onUndo()">
-    <i class="material-icons">undo</i>
-  </button>
-  <button [disabled]="!stateHistory.hasFuture"
-          class="btn"
-          (click)="onRedo()">
-    <i class="material-icons">redo</i>
-  </button>
-</div>
-
-
 <div *ngIf="shoppingListEntries$ | async as shoppingListEntries">
   <app-shopping-list-entry *ngFor="let entry of shoppingListEntries"
                            class="collection-item"
                            [entry]="entry"
                            (increment)="increment($event)"
-                           (decrement)="decrement($event)"
-                           (noteChanged)="onNoteChanged($event)"></app-shopping-list-entry>
+                           (decrement)="decrement($event)"></app-shopping-list-entry>
 </div>
