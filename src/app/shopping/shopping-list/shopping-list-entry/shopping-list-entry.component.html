@@ -1,0 +1,19 @@
+<div class="flex align-center sb entry"
+     (click)="showDetails()">
+  <div class="flex">
+    {{entry.quantity}} | {{entry.title}}
+  </div>
+  <div>
+    <button class="btn"
+            (click)="inc(entry)">
+      <i class="material-icons">add</i>
+    </button>
+    <button class="btn"
+            (click)="dec(entry)">
+      <i class="material-icons">remove</i>
+    </button>
+  </div>
+</div>
+<app-shopping-list-entry-details *ngIf="detailsVisible"
+                                 [entry]="entry"
+                                 (noteChanged)="noteChanged.emit($event)"></app-shopping-list-entry-details>
