@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ShoppingListEntry, ShoppingQuery, ShoppingService } from '../state';
+import { ShoppingQuery, ShoppingService } from '../state';
 import { Observable } from 'rxjs';
+import { ShoppingListEntry } from '../models/shopping-list-entry.model';
 
 @Component({
   selector: 'app-shopping-list',
@@ -13,7 +14,7 @@ export class ShoppingListComponent implements OnInit {
               private _shoppingService: ShoppingService) { }
 
   ngOnInit() {
-    this.shoppingListEntries$ = this._shoppingQuery.selectAll();
+    this.shoppingListEntries$ = this._shoppingQuery.selectEntries();
   }
 
   addEntry(input: HTMLInputElement) {
