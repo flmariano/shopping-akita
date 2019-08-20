@@ -7,7 +7,6 @@ import { Injectable } from '@angular/core';
 })
 export class ShoppingService {
 
-// tslint:disable-next-line: variable-name
   constructor(private _shoppingStore: ShoppingStore) {
   }
 

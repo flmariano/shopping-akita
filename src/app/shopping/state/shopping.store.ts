@@ -13,5 +13,4 @@ export class ShoppingStore extends EntityStore<ShoppingState, ShoppingListEntry>
   constructor() {
     super();
   }
-
 }

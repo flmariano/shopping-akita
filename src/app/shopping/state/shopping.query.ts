@@ -11,5 +11,4 @@ export class ShoppingQuery extends QueryEntity<ShoppingState, ShoppingListEntry>
   constructor(protected store: ShoppingStore) {
     super(store);
   }
-
 }
