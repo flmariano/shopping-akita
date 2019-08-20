@@ -231,20 +231,26 @@ export class ShoppingListComponent implements OnInit {
 
 Die hier nicht gezeigten Komponenten können im [Stackblitz-Projekt](https://stackblitz.com/edit/shopping-akita-sdg23gs) angesehen werden.
 
-<https://stackblitz.com/edit/shopping-akita-sdg23gs?embed=1&file=src/app/app.component.ts>
+<https://stackblitz.com/github/flmariano/shopping-akita/tree/simple-version>
 
 ### Ausblick
 
 Damit ist unsere Anwendung auch schon fertig. Es ist empfehlenswert, sich die Anwendung auf Stackblitz und GitHub anzusehen und selbst damit zu experimentieren. Dabei gibt es 3 unterschiedliche Versionen auf den verschiedenen Branches.
 
-Im `master` ist eine Version, die weitere Features, wie zum Beispiel Versionshistorie und eine Detailansicht mit Notizen, hat. Im Branch `normal-store` gibt es eine Variante, die den normalen `Store` anstatt den `EntityStore` verwendet. Im dritten, `simple-version` ist die einfache Version, die hier zu sehen ist.
+Im Branch [simple-version](https://stackblitz.com/github/flmariano/shopping-akita/tree/simple-version) ist die einfache Version, die hier zu sehen ist.
+
+Im Branch [normal-store](https://stackblitz.com/github/flmariano/shopping-akita/tree/normal-store) gibt es eine Variante, die den normalen `Store` anstatt den `EntityStore` verwendet.
+
+Im [master](<https://stackblitz.com/github/flmariano/shopping-akita/tree/master>) ist eine Version, die weitere Features, wie zum Beispiel Versionshistorie und eine Detailansicht mit Notizen, hat.
+
+Das Projekt auf GitHub: <https://github.com/flmariano/shopping-akita/>
 
 ## Weitere Infos
 
 Mehr zu Akita kann hier gefunden werden:
 
 - [Dokumentation](https://netbasal.gitbook.io/akita/)
-- [GitHub](https://github.com/datorama/akita)
+- [Akita GitHub](https://github.com/datorama/akita)
 - [Einführung](https://netbasal.com/introducing-akita-a-new-state-management-pattern-for-angular-applications-f2f0fab5a8)
 - [Beispiel](https://engineering.datorama.com/building-a-shopping-cart-in-angular-using-akita-c41f6a6f7255)
 
