@@ -8,7 +8,7 @@ export interface ShoppingState extends EntityState<ShoppingListEntry> {}
   providedIn: 'root'
 })
 @StoreConfig({ name: 'shopping' })
-export class ShoppingStore extends EntityStore<ShoppingState, ShoppingListEntry> {
+export class ShoppingStore extends EntityStore<ShoppingState> {
 
   constructor() {
     super();
