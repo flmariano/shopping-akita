@@ -40,7 +40,7 @@ export function createShoppingListItem({ title, quantity }: Partial<ShoppingList
 }
 ```
 
-Unerwartet könnte hier sein, dass wir eine Factory-Funktion für das Modell angelegt haben. Dies ist der offizielle Standard in Akita und wird bei der Code-Generierung automatisch erstellt. Wenn die Objekte allerdings von einer Datenbank kommen anstatt manuell angelegt zu werden, braucht man diese Funktion nicht.
+Unerwartet könnte hier sein, dass wir eine Factory-Funktion für das Modell angelegt haben. Dies ist der offizielle Standard in Akita und wird bei der Code-Generierung automatisch erstellt (siehe [Akita CLI](https://github.com/datorama/akita/tree/master/cli) für mehr zur Code-Generierung; außerdem gibt es [Schematics](https://netbasal.gitbook.io/akita/angular-plugins/angular-schematics)). Wenn die Objekte allerdings von einer Datenbank kommen anstatt manuell angelegt zu werden, braucht man diese Funktion nicht.
 
 Der Typ "ID" kommt von Akita und wird meist, aber nicht zwingend, als Typ des Primärschlüssels des Modells benutzt. Er besteht ganz einfach aus einer Vereinigung von `string` und `number` (Quellcode: `type ID = string | number`). Die Funktion `guid()` erzeugt einfach eine zufällige GUID.
 
