@@ -18,7 +18,7 @@ Mehr zu Stores und Queries später.
 
 ## Ein simples Testprojekt
 
-Zum Erläutern des Patterns und dessen Implementierung werden wir uns jetzt ein simples Beispielprojekt anschauen
+Zum Erläutern des Patterns und dessen Implementierung werden wir uns jetzt ein simples Beispielprojekt anschauen.
 
 ### Das Modell
 
@@ -238,3 +238,14 @@ Die hier nicht gezeigten Komponenten können im [Stackblitz-Projekt](https://sta
 Damit ist unsere Anwendung auch schon fertig. Es ist empfehlenswert, sich die Anwendung auf Stackblitz und GitHub anzusehen und selbst damit zu experimentieren. Dabei gibt es 3 unterschiedliche Versionen auf den verschiedenen Branches.
 
 Im `master` ist eine Version, die weitere Features, wie zum Beispiel Versionshistorie und eine Detailansicht mit Notizen, hat. Im Branch `normal-store` gibt es eine Variante, die den normalen `Store` anstatt den `EntityStore` verwendet. Im dritten, `simple-version` ist die einfache Version, die hier zu sehen ist.
+
+## Weitere Infos
+
+Mehr zu Akita kann hier gefunden werden:
+
+- [Dokumentation](https://netbasal.gitbook.io/akita/)
+- [GitHub](https://github.com/datorama/akita)
+- [Einführung](https://netbasal.com/introducing-akita-a-new-state-management-pattern-for-angular-applications-f2f0fab5a8)
+- [Beispiel](https://engineering.datorama.com/building-a-shopping-cart-in-angular-using-akita-c41f6a6f7255)
+
+Vor Allem die Dokumentation ist empfehlenswert, durchzulesen.
